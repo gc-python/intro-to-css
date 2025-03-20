@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>cascade fix</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>01 cascade fix act</h1>
+
+    <p class="para">I'm just a paragraph with extra bold text!</p>
+    <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
+
+    <button id="confirm-button" class="button confirm">Confirm</button>
+    <button id="cancel-button" class="button cancel">Cancel</button>
+
+    <div class="text">I'm a div with thin text!</div>
+    <div class="text">
+      I'm a div with thin text and a child div!
+      <div class="text child">I'm a smaller child div with extra bold text.</div>
+    </div>
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an
+        <strong>outdated</strong>
+        browser. Please
+        <a href="#">upgrade your browser</a>
+        to improve your experience.
+      </p>
+    <![endif]-->
+  </body>
+</html>
